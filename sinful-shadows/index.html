@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sinful Shadows — Launch Night</title>
+<link rel="stylesheet" href="deck.css">
+</head>
+<body>
+<div id="stage">
+
+<!-- 1 ─ Title -->
+<section class="slide s-title" data-title="Sinful Shadows">
+  <div class="smoke"></div>
+  <img class="fathoming rise" style="--i:0" src="img/fathoming-logo-line.png" alt="The Fathoming">
+  <img class="logo rise" style="--i:2" src="img/sinful-shadows-logo.svg" alt="Sinful Shadows">
+  <div class="tag rise" style="--i:5">Expansion Release Event</div>
+  <div class="candles rise" style="--i:7">
+    <i style="--c:#8fb8ff;--i:0"></i><i style="--c:#4fd08a;--i:1"></i><i style="--c:#ff5a3c;--i:2"></i><i style="--c:#9bc24a;--i:3"></i><i style="--c:#f2b632;--i:4"></i><i style="--c:#f08a3c;--i:5"></i><i style="--c:#ff4f9a;--i:6"></i>
+  </div>
+  <aside class="notes">Welcome. Two halves tonight: a quick refresher on how the game plays, including what has changed since Divine Intervention, then everything new in Sinful Shadows.</aside>
+</section>
+
+<!-- 2 ─ Section: Quick Rule Refresher -->
+<section class="slide s-section" data-title="Quick Rule Refresher" style="--accent:#7a5a14">
+  <div class="smoke"></div>
+  <div class="kicker rise">The Fathoming</div>
+  <h2 class="rise" style="--i:2">Quick Rule Refresher</h2>
+  <div class="orn rise" style="--i:4"><i></i></div>
+  <p class="rise" style="--i:5">How the game plays, and what has changed.</p>
+  <aside class="notes">First half: a quick run through the rules, then the two rule changes and the rulings worth knowing.</aside>
+</section>
+
+<!-- 3 ─ The goal -->
+<section class="slide s-goal" data-title="The goal">
+  <div class="kicker rise">Refresher · The goal</div>
+  <div class="row" style="align-items:center;margin-top:10px">
+    <div class="big rise" style="--i:1">10</div>
+    <div class="col">
+      <div class="lead rise" style="--i:2">First to ten<br>Loot wins.</div>
+      <p class="rise" style="--i:3;margin-top:30px;font-size:44px;max-width:860px">Summon Warriors, destroy your opponent's, and take the <em>Loot</em> they leave behind.</p>
+    </div>
+  </div>
+  <div class="facts">
+    <div class="fact rise" style="--i:5"><div class="n">2 players</div><p>One deck each, head to head.</p></div>
+    <div class="fact rise" style="--i:6"><div class="n">40 cards</div><p>Up to 3 copies of a card. At most 1 Divine card.</p></div>
+    <div class="fact rise" style="--i:7"><div class="n">Deck out</div><p>Start your turn with no cards left to draw and you lose.</p></div>
+  </div>
+  <aside class="notes">The whole game in one line: first to 10 Loot. You get Loot by destroying Warriors. Decks are exactly 40 cards, three copies max, and only one Divine card. Running out of cards is the other way to lose.</aside>
+</section>
+
+<!-- 4 ─ Card anatomy -->
+<section class="slide s-anatomy" data-title="Reading a card">
+  <div class="kicker rise">Refresher · Reading a card</div>
+  <div class="row" style="gap:50px">
+    <img class="diagram rise" style="--i:1" src="img/card-diagram.png" alt="Anatomy of a card">
+    <div class="col grow" style="padding-top:10px">
+      <h2 class="rise" style="--i:2;font-size:58px;margin-bottom:30px">Three kinds of card</h2>
+      <div class="types rise" style="--i:3">
+        <div class="chip">Warriors<small>Your fighters</small></div>
+        <div class="chip">Terrains<small>Lasting effects</small></div>
+        <div class="chip">Assets<small>Actions &amp; Items</small></div>
+      </div>
+      <dl class="deflist">
+        <dt class="rise" style="--i:4">Summon Cost</dt><dd class="rise" style="--i:4">Energy to play the card.</dd>
+        <dt class="rise" style="--i:5">Health</dt><dd class="rise" style="--i:5">Damage it can take before it is destroyed.</dd>
+        <dt class="rise" style="--i:6">Attack</dt><dd class="rise" style="--i:6">Damage it deals.</dd>
+        <dt class="rise" style="--i:7">Attack Cost</dt><dd class="rise" style="--i:7">Energy to attack with it.</dd>
+        <dt class="rise" style="--i:8">Constant</dt><dd class="rise" style="--i:8">An ability that is always on.</dd>
+        <dt class="rise" style="--i:9">When Played</dt><dd class="rise" style="--i:9">Happens once, as the card hits the field.</dd>
+        <dt class="rise" style="--i:10">Activate</dt><dd class="rise" style="--i:10">You choose when to use it.</dd>
+      </dl>
+    </div>
+  </div>
+  <aside class="notes">Warriors fight. Terrains sit in play with a lasting effect. Assets are either Actions, which happen once, or Items, which you equip to a Warrior. Every card has the same layout: cost on the left, health in the middle, attack on the right, attack cost tucked underneath.</aside>
+</section>
+
+<!-- 5 ─ The table -->
+<section class="slide s-table" data-title="The table">
+  <div class="kicker rise">Refresher · The table</div>
+  <div class="row" style="gap:70px;align-items:center;flex:1">
+    <div class="mat rise" style="--i:1">
+      <div class="zone" style="grid-column:1/3">Loot Stash</div>
+      <div class="zone warm" style="grid-column:3/5"><b>1</b>Global Terrain<br>shared by both players</div>
+      <div class="zone" style="grid-column:5/7">Energy Pit</div>
+      <div class="zone" style="grid-row:2/4">Loot<br>&amp;<br>Energy<br>trackers</div>
+      <div class="zone warm" style="grid-column:2/6"><b>4</b>Warrior Zone</div>
+      <div class="zone">Deck</div>
+      <div class="zone hot" style="grid-column:2/4"><b>1</b>Personal Terrain<br>yours alone</div>
+      <div class="zone" style="grid-column:4/6">Asset Zone</div>
+      <div class="zone">Discard</div>
+    </div>
+    <div class="col grow">
+      <h2 class="rise" style="--i:2;font-size:58px">Where things go</h2>
+      <p class="rise" style="--i:3;margin-top:30px">Up to <b>4 Warriors</b> on your side at once.</p>
+      <p class="rise" style="--i:4;margin-top:22px">One <b>Personal Terrain</b> each. It only affects your side.</p>
+      <p class="rise" style="--i:5;margin-top:22px">One <b>Global Terrain</b> between you. It affects both sides, and you must destroy your opponent's before playing your own.</p>
+      <p class="rise fine" style="--i:6;margin-top:30px">Keep an eye on the red zone. It matters a great deal tonight.</p>
+    </div>
+  </div>
+  <aside class="notes">Four Warrior slots, one personal terrain each, one global terrain shared. The personal terrain zone is highlighted because that is where the new Shrines live.</aside>
+</section>
+
+<!-- 6 ─ Your turn -->
+<section class="slide s-turn" data-title="Your turn">
+  <div class="kicker rise">Refresher · Your turn</div>
+  <h2 class="rise" style="--i:1">Draw. Charge. Play. End.</h2>
+  <div class="phases">
+    <div class="phase rise" style="--i:2"><div class="num">i</div><h3>Draw</h3><p>Draw 1 card.</p></div>
+    <div class="phase rise" style="--i:3"><div class="num">ii</div><h3>Energy</h3><p>Start at <b>4</b>. One more for each turn you have finished, up to <b>10</b>.</p></div>
+    <div class="phase rise" style="--i:4"><div class="num">iii</div><h3>Play, in any order</h3>
+      <ul>
+        <li>Summon Warriors</li>
+        <li>Play a Terrain</li>
+        <li>Play Actions, equip Items</li>
+        <li>Use Activate abilities</li>
+        <li>Attack: once per Warrior</li>
+        <li>Pay 2 Energy to draw a card</li>
+      </ul>
+    </div>
+    <div class="phase rise" style="--i:5"><div class="num">iv</div><h3>End</h3><p>End-of-turn effects happen. Unspent Energy is <b>gone</b>.</p></div>
+  </div>
+  <aside class="notes">Energy does not carry over. Both players start on 4 and climb by one each turn to a cap of 10. In the play phase you can do things in any order, and each Warrior attacks once. Don't forget you can always pay 2 Energy to draw.</aside>
+</section>
+
+<!-- 7 ─ Combat and Loot -->
+<section class="slide s-combat" data-title="Combat and Loot">
+  <div class="kicker rise">Refresher · Combat and Loot</div>
+  <h2 class="rise" style="--i:1">Destroy a Warrior, take its Loot</h2>
+  <div class="row" style="gap:80px;margin:auto 0;align-items:center">
+    <div class="flow">
+      <div class="rise" style="--i:2"><span class="n">1</span><p>Pay your Warrior's <b>Attack Cost</b> and pick a target: a Warrior or a Terrain.</p></div>
+      <div class="rise" style="--i:3"><span class="n">2</span><p>Damage <b>stays on the card</b>. When it reaches the card's Health, the card is destroyed.</p></div>
+      <div class="rise" style="--i:4"><span class="n">3</span><p>Destroyed a Warrior? Take Loot equal to <b>half its Summon Cost, rounded up</b>.</p></div>
+      <div class="rise fine" style="--i:5;padding-left:82px">Destroying a Terrain gives no Loot.</div>
+    </div>
+    <div class="col grow">
+      <div class="card-label rise" style="--i:5;text-align:left;margin:0 0 16px">Loot by Summon Cost</div>
+      <div class="loot">
+        <div class="rise" style="--i:6"><div class="c">Cost 1–2</div><div class="l">1</div></div>
+        <div class="rise" style="--i:7"><div class="c">Cost 3–4</div><div class="l">2</div></div>
+        <div class="rise" style="--i:8"><div class="c">Cost 5–6</div><div class="l">3</div></div>
+        <div class="rise" style="--i:9"><div class="c">Cost 7–8</div><div class="l">4</div></div>
+        <div class="rise" style="--i:10"><div class="c">Cost 9–10</div><div class="l">5</div></div>
+      </div>
+      <p class="rise fine" style="--i:11;margin-top:30px">The Loot a Warrior gives up is printed at the bottom of its card.</p>
+    </div>
+  </div>
+  <aside class="notes">Big Warriors are big risks: a cost 7 Warrior hands over 4 Loot when it dies. Damage accumulates, it does not reset at end of turn.</aside>
+</section>
+
+<!-- 8 ─ Rule changes -->
+<section class="slide s-changes" data-title="What has changed">
+  <div class="kicker rise">Rule updates</div>
+  <h2 class="rise" style="--i:1">What has changed since you last played</h2>
+  <div class="changes">
+    <div class="change step">
+      <div class="when">November 2026<b>Divine discount doubled</b></div>
+      <p>A Divine card costs 10, minus <span class="was">1</span><span class="arrow">→</span><span class="now"><b>2 for each Loot you are behind</b></span>. Three behind, it costs 4. Five behind, it is free. Tied or ahead, still 10.</p>
+    </div>
+    <div class="change step">
+      <div class="when">April 2026<b>Empty field penalty</b></div>
+      <p>End your turn with no Warriors and your opponent takes <span class="was">2 Loot</span><span class="arrow">→</span><span class="now"><b>1 Loot</b></span>. This applies from your second turn onward.</p>
+    </div>
+  </div>
+  <aside class="notes">Two changes since most of you last played. The big one is new this week: Divine cards now drop by 2 Energy for every Loot you trail by, so comebacks arrive much faster. The other: an empty field now costs you 1 Loot, not 2.</aside>
+</section>
+
+<!-- 9 ─ Rulings -->
+<section class="slide s-rulings" data-title="Rulings worth knowing">
+  <div class="kicker rise">Rule updates · Rulings</div>
+  <h2 class="rise" style="--i:1">Rulings worth knowing</h2>
+  <div class="rulings">
+    <div class="ruling step"><span class="n">1</span><div><h3>No target, no play</h3><p>An Action with nothing it can legally target cannot be played. Hidden zones don't count: you may still play a search that turns up nothing.</p></div></div>
+    <div class="ruling step"><span class="n">2</span><div><h3>“Up to” includes none</h3><p>Whenever a card says “up to”, choosing nothing at all is allowed.</p></div></div>
+    <div class="ruling step"><span class="n">3</span><div><h3>Actions discard last</h3><p>An Action is not in your discard pile until it has finished. It can never fetch itself back.</p></div></div>
+    <div class="ruling step"><span class="n">4</span><div><h3>Who beats whom</h3><p>When effects clash: Global Terrain, then Personal Terrain, then Warriors and their Items, then Actions. The later one wins.</p></div></div>
+    <div class="ruling step"><span class="n">5</span><div><h3>Over the Warrior limit</h3><p>If an effect shrinks your field, you choose who goes. They are discarded, so no Loot changes hands.</p></div></div>
+    <div class="ruling step"><span class="n">6</span><div><h3>Searches end in a shuffle</h3><p>Show your opponent what you found, then shuffle, unless the card says otherwise.</p></div></div>
+    <div class="ruling step"><span class="n">7</span><div><h3>Full Arts share the limit</h3><p>A Full Art and its regular version count as the same card: 3 copies between them.</p></div></div>
+    <div class="ruling step"><span class="n">8</span><div><h3>Costs stop at zero</h3><p>No Summon Cost or Attack Cost can ever drop below 0.</p></div></div>
+  </div>
+  <aside class="notes">These are calls that have come up in play over the last year. Number one matters most in practice: you cannot throw away an Action that has no legal target.</aside>
+</section>
+
+<!-- 10 ─ Set divider -->
+<section class="slide s-divider" data-title="Sinful Shadows">
+  <div class="slivers">
+    <div style="--i:0;background-image:url(art/pride.jpg)"></div>
+    <div style="--i:1;background-image:url(art/envy.jpg)"></div>
+    <div style="--i:2;background-image:url(art/wrath.jpg)"></div>
+    <div style="--i:3;background-image:url(art/sloth.jpg)"></div>
+    <div style="--i:4;background-image:url(art/greed.jpg)"></div>
+    <div style="--i:5;background-image:url(art/gluttony.jpg)"></div>
+    <div style="--i:6;background-image:url(art/lust.jpg)"></div>
+  </div>
+  <img class="logo rise" style="--i:8" src="img/sinful-shadows-logo.svg" alt="Sinful Shadows">
+  <div class="tag rise" style="--i:11">The third set of The Fathoming</div>
+  <aside class="notes">Now the new set.</aside>
+</section>
+
+<!-- 11 ─ Section: New Mechanics -->
+<section class="slide s-section" data-title="New Mechanics" style="--accent:#b3261e">
+  <div class="smoke"></div>
+  <div class="kicker rise">Sinful Shadows</div>
+  <h2 class="rise" style="--i:2">New Mechanics</h2>
+  <div class="orn rise" style="--i:4"><i></i></div>
+  <p class="rise" style="--i:5">Shrines of Sin, and the Warriors who serve them.</p>
+  <aside class="notes">Two new ideas carry the set: Shrines, and the Servants bound to them.</aside>
+</section>
+
+<!-- 12 ─ Shrines of Sin -->
+<section class="slide s-shrines" data-title="Shrines of Sin" style="--accent:#b3261e">
+  <div class="row" style="gap:80px;flex:1">
+    <img class="card" style="--w:560px;--r:-2.5deg;--i:0;margin-top:14px" src="cards/shrine-of-wrath.jpg" alt="Shrine of Wrath">
+    <div class="col grow" style="align-self:stretch">
+      <div class="kicker rise">New mechanic</div>
+      <h2 class="rise" style="--i:1">Shrines of Sin</h2>
+      <div class="points">
+        <div class="point step"><span class="n">1</span><p>A new class of Terrain: <b>Sin</b>. Each costs 4, with 130 Health.</p></div>
+        <div class="point step"><span class="n">2</span><p>Only playable in <b>your Personal Terrain zone</b>. Never Global.</p></div>
+        <div class="point step"><span class="n">3</span><p>Each grants a <b>Blessing</b> and demands a <b>Punishment</b>.</p></div>
+        <div class="point step"><span class="n">4</span><p>One Personal Terrain, so <b>one Shrine at a time</b>.</p></div>
+      </div>
+      <div class="fan step">
+        <img class="card" style="--w:186px;--r:-9deg;--i:1" src="cards/shrine-of-pride.jpg" alt="Shrine of Pride">
+        <img class="card" style="--w:186px;--r:-6deg;--i:2" src="cards/shrine-of-envy.jpg" alt="Shrine of Envy">
+        <img class="card" style="--w:186px;--r:-3deg;--i:3" src="cards/shrine-of-sloth.jpg" alt="Shrine of Sloth">
+        <img class="card" style="--w:186px;--r:0deg;--i:4" src="cards/shrine-of-greed.jpg" alt="Shrine of Greed">
+        <img class="card" style="--w:186px;--r:3deg;--i:5" src="cards/shrine-of-gluttony.jpg" alt="Shrine of Gluttony">
+        <img class="card" style="--w:186px;--r:6deg;--i:6" src="cards/shrine-of-lust.jpg" alt="Shrine of Lust">
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Shrines are Terrains with a catch. They only go in your own personal zone, so your opponent can't share them, and every Shrine pays you with one hand and takes with the other.</aside>
+</section>
+
+<!-- 13 ─ Servants of Sin -->
+<section class="slide s-servants" data-title="Servants of Sin" style="--accent:#b3261e">
+  <div class="row" style="gap:70px;flex:1">
+    <div class="col grow">
+      <div class="kicker rise">New mechanic</div>
+      <h2 class="rise" style="--i:1">Servants of Sin</h2>
+      <p class="rise lede" style="--i:2;font-size:36px">Some Warriors are <em>corrupted</em>. They still belong to a normal class, but they are sworn to one Shrine. Look for the mark under the name.</p>
+      <div class="lens rise" style="--i:3;margin-top:30px;background-image:url(cards/widow-killer.jpg);background-size:1250px auto;background-position:-742px -172px"></div>
+      <div class="switch">
+        <div class="on step"><h3>Their Shrine is in your personal zone</h3><p>The Servant's ability works, and the Shrine's Blessing and Punishment apply to it.</p></div>
+        <div class="off step"><h3>No matching Shrine</h3><p>The Servant has no ability. It still fights with its printed stats.</p></div>
+      </div>
+      <p class="fine step" style="margin-top:22px">If the Shrine leaves play, all of it switches off at once. “Corrupted warrior” on a card means any Servant of Sin.</p>
+    </div>
+    <div style="position:relative;width:640px;flex:none">
+      <img class="card" style="--w:380px;--r:-5deg;--i:2;position:absolute;left:0;top:30px" src="cards/shrine-of-wrath.jpg" alt="Shrine of Wrath">
+      <img class="card" style="--w:420px;--r:4deg;--i:4;position:absolute;right:0;top:300px" src="cards/widow-killer.jpg" alt="Widow Killer">
+    </div>
+  </div>
+  <aside class="notes">This is the rule to remember tonight, because it is not printed on the cards. A Servant's ability only works while its own Shrine is sitting in your personal terrain zone. Lose the Shrine and your Servants are just bodies.</aside>
+</section>
+
+<!-- The seven Sin slides (built by deck.js from SINS). They are not in the running order:
+     each opens from its Shrine on the closing slide. -->
+<div id="sins"></div>
+
+<!-- 14 ─ The fine print -->
+<section class="slide s-rulings" data-title="Sin: the fine print" style="--accent:#b3261e">
+  <div class="kicker rise">Sinful Shadows · The fine print</div>
+  <h2 class="rise" style="--i:1">How the new cards are ruled</h2>
+  <div class="rulings">
+    <div class="ruling step"><span class="n">1</span><div><h3>Personal zone only</h3><p>A Shrine only ever sits in your own Personal Terrain zone, never the Global one.</p></div></div>
+    <div class="ruling step"><span class="n">2</span><div><h3>No Shrine, no ability</h3><p>A Servant's ability is off unless its own Shrine is in your personal zone. Someone else's Shrine does not count.</p></div></div>
+    <div class="ruling step"><span class="n">3</span><div><h3>Everything falls together</h3><p>When a Shrine leaves play, its Blessing, its Punishment and its Servants' abilities all stop immediately.</p></div></div>
+    <div class="ruling step"><span class="n">4</span><div><h3>Envy and Pride</h3><p>Their Punishment only switches off the Shrine's Blessing. Their Servants keep their own abilities.</p></div></div>
+    <div class="ruling step"><span class="n">5</span><div><h3>Mr. Egg silences Servants too</h3><p>While Mr. Egg disables the Shrines, their Servants go dormant with them.</p></div></div>
+    <div class="ruling step"><span class="n">6</span><div><h3>Stolen abilities really move</h3><p>When The Job Siphon or Boo Boo the Fool takes an ability, the Warrior it came from is left with none.</p></div></div>
+  </div>
+  <aside class="notes">A few calls on the new cards so nobody has to argue about them at the table.</aside>
+</section>
+
+<!-- 15 ─ Section: Other New Cards -->
+<section class="slide s-section" data-title="Other New Cards" style="--accent:#3f7fb0">
+  <div class="smoke"></div>
+  <div class="kicker rise">Sinful Shadows</div>
+  <h2 class="rise" style="--i:2">Other New Cards</h2>
+  <div class="orn rise" style="--i:4"><i></i></div>
+  <p class="rise" style="--i:5">Support, counterplay, Divine cards, Terrains, Items and Full Arts.</p>
+  <aside class="notes">Everything in the set that is not a Shrine or a Servant.</aside>
+</section>
+
+<!-- 16 ─ Shrine support -->
+<section class="slide" data-title="Feeding the Shrine" style="--accent:#b3261e">
+  <div class="kicker rise">Sinful Shadows · Support</div>
+  <h2 class="rise" style="--i:1">Feeding the Shrine</h2>
+  <p class="lede rise" style="--i:2">A Shrine deck needs its Shrine early. These Actions find it, and pay you for committing.</p>
+  <div class="showcase">
+    <figure><img class="card" style="--w:340px;--r:-2deg;--i:1" src="cards/canary-in-the-coalmine.jpg" alt="Canary in the Coalmine"><figcaption><b>Find it</b>Search your deck for a Shrine.</figcaption></figure>
+    <figure><img class="card" style="--w:340px;--r:1.5deg;--i:2" src="cards/alter-ego.jpg" alt="Alter Ego"><figcaption><b>Find a Servant</b>Swap a Warrior for a corrupted one.</figcaption></figure>
+    <figure><img class="card" style="--w:340px;--r:-1deg;--i:3" src="cards/shame-piggy.jpg" alt="Shame Piggy"><figcaption><b>Get paid</b>Draw 3 with a Shrine in play.</figcaption></figure>
+    <figure><img class="card" style="--w:340px;--r:2deg;--i:4" src="cards/they-only-play-games.jpg" alt="They Only Play Games!"><figcaption><b>Go wide</b>A coin flip for each corrupted Warrior.</figcaption></figure>
+  </div>
+  <aside class="notes">Canary in the Coalmine is the glue: it fetches any Shrine. The rest reward you for having Servants on the table.</aside>
+</section>
+
+<!-- 17 ─ Resisting corruption -->
+<section class="slide" data-title="Resisting corruption" style="--accent:#5c8a52">
+  <div class="kicker rise">Sinful Shadows · Counterplay</div>
+  <h2 class="rise" style="--i:1">Or stay pure</h2>
+  <p class="lede rise" style="--i:2">Not every Warrior bends the knee. These four exist to punish anyone who does.</p>
+  <div class="showcase">
+    <figure><img class="card" style="--w:330px;--r:-2deg;--i:1" src="cards/mr-egg.jpg" alt="Mr. Egg"><figcaption><b>Mr. Egg</b>Every Shrine in play is disabled.</figcaption></figure>
+    <figure><img class="card" style="--w:330px;--r:1.5deg;--i:2" src="cards/handmaids-of-the-precious-blood.jpg" alt="Handmaids of the Precious Blood"><figcaption><b>Handmaids</b>No corrupted Warrior has an ability.</figcaption></figure>
+    <figure><img class="card" style="--w:330px;--r:-1deg;--i:3" src="cards/unremarkable-dog.jpg" alt="Unremarkable Dog"><figcaption><b>Unremarkable Dog</b>Your other Warriors can't be hurt by the corrupted.</figcaption></figure>
+    <figure><img class="card" style="--w:330px;--r:2deg;--i:4" src="cards/beautiful-bob.jpg" alt="Beautiful Bob"><figcaption><b>Beautiful Bob</b>Every corrupted Warrior in play loses 10 attack for good.</figcaption></figure>
+  </div>
+  <aside class="notes">If your opponent is all-in on a Shrine, one of these can switch their whole deck off. They hit your own Servants too, so they belong in decks that stay clean.</aside>
+</section>
+
+<!-- 18 ─ Divine -->
+<section class="slide" data-title="New Divine cards" style="--accent:#b04fc0">
+  <div class="kicker rise">Sinful Shadows · Divine</div>
+  <h2 class="rise" style="--i:1">Three new Divine cards</h2>
+  <div class="row" style="gap:60px;flex:1;align-items:center">
+    <img class="card" style="--w:470px;--r:-3deg;--i:1" src="cards/smelling-pancakes.jpg" alt="Smelling Pancakes">
+    <div class="col grow">
+      <p class="rise" style="--i:3;font-size:46px"><em>Smelling Pancakes</em> is the first card you can play <b>on your opponent's turn</b>.</p>
+      <p class="rise" style="--i:4;margin-top:24px">When they are about to take the Loot that wins them the game, you may play it. They take none of it.</p>
+      <p class="rise fine" style="--i:5;margin-top:24px">It costs nothing to play. It is still a Divine card, so it is the only one your deck can hold.</p>
+    </div>
+    <div class="col" style="gap:26px">
+      <img class="card" style="--w:250px;--r:3deg;--i:4" src="cards/the-maximum-bomb.jpg" alt="The Maximum Bomb">
+      <img class="card" style="--w:250px;--r:-2deg;--i:5;margin-left:-60px" src="cards/the-wall.jpg" alt="The Wall">
+    </div>
+  </div>
+  <aside class="notes">Smelling Pancakes breaks the one rule the game has always had: you only act on your own turn. It cancels a game-winning Loot grab. It costs 0, but one Divine card per deck means choosing it gives up the others.</aside>
+</section>
+
+<!-- 19 ─ Class terrains -->
+<section class="slide" data-title="A Terrain for every class" style="--accent:#3f7fb0">
+  <div class="kicker rise">Sinful Shadows · Terrains</div>
+  <h2 class="rise" style="--i:1">A new Terrain for every class</h2>
+  <p class="lede rise" style="--i:2">Eight class Terrains for the decks that stay out of the shadows. Unlike Shrines, these can go in either zone.</p>
+  <div class="grid8">
+    <img class="card" style="--r:-1.5deg;--i:1" src="cards/love-shack.jpg" alt="Love Shack">
+    <img class="card" style="--r:1deg;--i:2" src="cards/bug-hotel.jpg" alt="Bug Hotel">
+    <img class="card" style="--r:-1deg;--i:3" src="cards/timber-lanes.jpg" alt="Timber Lanes">
+    <img class="card" style="--r:1.5deg;--i:4" src="cards/piss-room.jpg" alt="Piss Room">
+    <img class="card" style="--r:-1.5deg;--i:5" src="cards/submarine-rock.jpg" alt="Submarine Rock">
+    <img class="card" style="--r:1deg;--i:6" src="cards/psychedelic-steampunk.jpg" alt="Psychedelic Steampunk">
+    <img class="card" style="--r:-1deg;--i:7" src="cards/ball-boy-world-series.jpg" alt="Ball Boy World Series">
+    <img class="card" style="--r:1.5deg;--i:8" src="cards/the-mineshaft.jpg" alt="The Mineshaft">
+  </div>
+  <p class="fine rise" style="--i:10;margin-top:26px;text-align:center">Fairy · Pixie · Vampire · Werewolf · Mermaid · Wiccan · Human · Goblin &nbsp;&nbsp;—&nbsp;&nbsp; click any card to read it</p>
+  <aside class="notes">Every class gets a new home. Click a card to blow it up if anyone wants to read one.</aside>
+</section>
+
+<!-- 20 ─ Items -->
+<section class="slide" data-title="New Items" style="--accent:#8a5cc0">
+  <div class="kicker rise">Sinful Shadows · Items</div>
+  <h2 class="rise" style="--i:1">Eight new Items</h2>
+  <p class="lede rise" style="--i:2">Protection, extra Energy, second chances, and one key that makes a Warrior <em>every class at once</em>.</p>
+  <div class="grid8">
+    <img class="card" style="--r:-1.5deg;--i:1" src="cards/wigmore-key.jpg" alt="Wigmore Key">
+    <img class="card" style="--r:1deg;--i:2" src="cards/the-jug.jpg" alt="The Jug">
+    <img class="card" style="--r:-1deg;--i:3" src="cards/brass-monkey.jpg" alt="Brass Monkey">
+    <img class="card" style="--r:1.5deg;--i:4" src="cards/barter-dollars.jpg" alt="Barter Dollars">
+    <img class="card" style="--r:-1.5deg;--i:5" src="cards/the-discipline-stick.jpg" alt="The Discipline Stick">
+    <img class="card" style="--r:1deg;--i:6" src="cards/bitch-bell.jpg" alt="Bitch Bell">
+    <img class="card" style="--r:-1deg;--i:7" src="cards/head-cage.jpg" alt="Head Cage">
+    <img class="card" style="--r:1.5deg;--i:8" src="cards/brainfuel.jpg" alt="Brainfuel">
+  </div>
+  <p class="fine rise" style="--i:10;margin-top:26px;text-align:center">One Item per Warrior, unless a card says otherwise.</p>
+  <aside class="notes">Wigmore Key is the one to watch: every class bonus and every class penalty at the same time.</aside>
+</section>
+
+<!-- 21 ─ Full Arts -->
+<section class="slide" data-title="Full Arts" style="--accent:#d8408c">
+  <div class="kicker rise">Sinful Shadows · Full Arts</div>
+  <h2 class="rise" style="--i:1">Seven Full Arts</h2>
+  <p class="lede rise" style="--i:2">Same card, same rules, far more art. A Full Art counts toward the same 3-copy limit as its regular version.</p>
+  <div class="showcase" style="gap:0">
+    <img class="card" style="--w:270px;--r:-9deg;--i:1;margin:40px -14px 0" src="cards/suggy-top-and-milky-bottom-fa.jpg" alt="Suggy Top and Milky Bottom, Full Art">
+    <img class="card" style="--w:270px;--r:-6deg;--i:2;margin:18px -14px 0" src="cards/smokey-the-bear-fa.jpg" alt="Smokey the Bear, Full Art">
+    <img class="card" style="--w:270px;--r:-3deg;--i:3;margin:4px -14px 0" src="cards/clever-hans-fa.jpg" alt="Clever Hans, Full Art">
+    <img class="card" style="--w:270px;--r:0deg;--i:4;margin:0 -14px" src="cards/boo-boo-the-fool-fa.jpg" alt="Boo Boo the Fool, Full Art">
+    <img class="card" style="--w:270px;--r:3deg;--i:5;margin:4px -14px 0" src="cards/emily-2-fa.jpg" alt="Emily 2, Full Art">
+    <img class="card" style="--w:270px;--r:6deg;--i:6;margin:18px -14px 0" src="cards/rose-bud-and-thorn-fa.jpg" alt="Rose, Bud, and Thorn, Full Art">
+    <img class="card" style="--w:270px;--r:9deg;--i:7;margin:40px -14px 0" src="cards/baby-carrots-fa.jpg" alt="Baby Carrots, Full Art">
+  </div>
+  <aside class="notes">Seven to chase.</aside>
+</section>
+
+<!-- 22 ─ Section: Select Your Sin -->
+<section class="slide s-section" data-title="Select Your Sin" style="--accent:#7a1410">
+  <div class="smoke"></div>
+  <div class="kicker rise">Sinful Shadows</div>
+  <h2 class="rise" style="--i:2">Select Your Sin</h2>
+  <div class="orn rise" style="--i:4"><i></i></div>
+  <p class="rise" style="--i:5">Seven Shrines. Choose one.</p>
+  <aside class="notes">Time to choose. On the next slide, click a Shrine to open that Sin.</aside>
+</section>
+
+<!-- 23 ─ Close -->
+<section class="slide s-close" data-title="Which sin will you serve?">
+  <div class="smoke"></div>
+  <div class="kicker rise" style="justify-content:center">Sinful Shadows</div>
+  <h2 class="rise" style="--i:2">Which sin will you serve?</h2>
+  <div class="fan7">
+    <img class="card" style="--w:250px;--r:-12deg;--y:78px;--i:3" src="cards/shrine-of-pride.jpg" alt="Shrine of Pride" data-goto="pride" title="Go to Pride">
+    <img class="card" style="--w:250px;--r:-8deg;--y:34px;--i:4" src="cards/shrine-of-envy.jpg" alt="Shrine of Envy" data-goto="envy" title="Go to Envy">
+    <img class="card" style="--w:250px;--r:-4deg;--y:9px;--i:5" src="cards/shrine-of-wrath.jpg" alt="Shrine of Wrath" data-goto="wrath" title="Go to Wrath">
+    <img class="card" style="--w:250px;--r:0deg;--y:0px;--i:6" src="cards/shrine-of-sloth.jpg" alt="Shrine of Sloth" data-goto="sloth" title="Go to Sloth">
+    <img class="card" style="--w:250px;--r:4deg;--y:9px;--i:7" src="cards/shrine-of-greed.jpg" alt="Shrine of Greed" data-goto="greed" title="Go to Greed">
+    <img class="card" style="--w:250px;--r:8deg;--y:34px;--i:8" src="cards/shrine-of-gluttony.jpg" alt="Shrine of Gluttony" data-goto="gluttony" title="Go to Gluttony">
+    <img class="card" style="--w:250px;--r:12deg;--y:78px;--i:9" src="cards/shrine-of-lust.jpg" alt="Shrine of Lust" data-goto="lust" title="Go to Lust">
+  </div>
+  <aside class="notes">That's the set. Pick a sin and let's play. Click a Shrine to open that Sin. The Back button, B or any arrow key returns here.</aside>
+</section>
+
+<div id="brand">The Fathoming</div>
+<div id="counter"></div>
+<button id="back" type="button">← Back</button>
+<div id="help">← → move &nbsp;·&nbsp; F fullscreen &nbsp;·&nbsp; O overview &nbsp;·&nbsp; N notes</div>
+<div id="progress"></div>
+<div id="notes"></div>
+<div id="overview"></div>
+<div id="lightbox"><img alt=""></div>
+</div>
+<script src="deck.js"></script>
+</body>
+</html>

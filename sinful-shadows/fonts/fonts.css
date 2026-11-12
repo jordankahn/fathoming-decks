@@ -1,0 +1,8 @@
+@font-face{font-family:'Cinzel';font-style:normal;font-weight:500;font-display:block;src:url('Cinzel-500-normal.woff2') format('woff2');}
+@font-face{font-family:'Cinzel';font-style:normal;font-weight:700;font-display:block;src:url('Cinzel-700-normal.woff2') format('woff2');}
+@font-face{font-family:'Cinzel';font-style:normal;font-weight:900;font-display:block;src:url('Cinzel-900-normal.woff2') format('woff2');}
+@font-face{font-family:'IM Fell English';font-style:italic;font-weight:400;font-display:block;src:url('IMFellEnglish-400-italic.woff2') format('woff2');}
+@font-face{font-family:'IM Fell English';font-style:normal;font-weight:400;font-display:block;src:url('IMFellEnglish-400-normal.woff2') format('woff2');}
+@font-face{font-family:'UnifrakturCook';font-style:normal;font-weight:700;font-display:block;src:url('UnifrakturCook-700-normal.woff2') format('woff2');}
+/* IM Fell English has old-style numerals (a 1 reads as an I), so digits come from Libre Baskerville. */
+@font-face{font-family:'Deck Digits';font-style:normal;font-weight:400;font-display:block;size-adjust:86%;unicode-range:U+0030-0039;src:url('LibreBaskerville-digits.woff2') format('woff2');}
